@@ -10,12 +10,19 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+    "php": ">=7.1"
+    },
     "extra": {
         "laravel": {
             "providers": [
                 "Gkblabs\\Phani\\MailListProvider"
             ]
 
-        }}
+        }},
+     "autoload": {
+    "psr-4": {
+      "Gkblabs\\Phani\\": "src",
+    }
+  }
 }

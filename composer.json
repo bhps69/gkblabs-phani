@@ -1,0 +1,21 @@
+{
+    "name": "gkblabs/phani",
+    "description": "a mail plugin",
+    "type": "library",
+    "license": "gkblabs",
+    "authors": [
+        {
+            "name": "phani",
+            "email": "phanibhandaru@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gkblabs\\Phani\\MailListProvider"
+            ]
+
+        }}
+}

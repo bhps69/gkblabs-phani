@@ -15,5 +15,6 @@ finally say <B><I>composer require gkblabs/phani</B></I> which installs the pack
 For the package to be run, add a line <B><I>Gkblabs\Phani\MailListProvider::class</B></I> in the "config/app.php" under the "package providers" comments.
 <h2>
 and in the composer.json, we have to include the line : <B><I>"Gkblabs\\Phani\\" : "vendor/gkblabs/phani/src"</B></I>
+ then use <B><I>"composer update"</B></I> 
 <h2>
 for accessing the database, this line <B><I>php artisan migrate --path=/vendor/gkblabs/phani/src/database/migrations</B></I> has to be written in command prompt with laravel directory as the root.</h2> 

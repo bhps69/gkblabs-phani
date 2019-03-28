@@ -16,4 +16,4 @@ For the package to be run, add a line <B><I>Gkblabs\Phani\MailListProvider</B></
 <h2>
 and in the composer.json, we have to include the line : <B><I>"Gkblabs\\Phani\\" : "vendor/gkblabs/phani/src"</B></I>
 <h2>
-for accessing the database, this line <B><I>php artisan migrate --path=/vendor/viewmymail/getmymail/src/database/migrations</B></I> has to be written in command prompt with laravel directory as the root.</h2> 
+for accessing the database, this line <B><I>php artisan migrate --path=/vendor/gkblabs/phani/src/database/migrations</B></I> has to be written in command prompt with laravel directory as the root.</h2> 

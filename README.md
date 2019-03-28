@@ -12,7 +12,7 @@ and then navigate to the laravel project in command prompt
 <h2>
 finally say <B><I>composer require gkblabs/phani</B></I> which installs the package
 <h2>
-For the package to be run, add a line <B><I>Gkblabs/Phani/MailListProvider</B></I> in the "config/app.php" under the "package providers" comments.
+For the package to be run, add a line <B><I>Gkblabs\Phani\MailListProvider</B></I> in the "config/app.php" under the "package providers" comments.
 <h2>
 and in the composer.json, we have to include the line : <B><I>"Gkblabs\\Phani\\" : "vendor/gkblabs/phani/src"</B></I>
 <h2>
